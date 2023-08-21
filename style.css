@@ -1,0 +1,35 @@
+body {
+  background-color: grey;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.show-modal {
+  background-color: aliceblue;
+  cursor: pointer;
+  padding: 20px 30px 20px 30px;
+  font-size: 1.5em;
+  border: 1px solid white;
+  border-radius: 25px;
+  width: 300px;
+  height: 100px;
+}
+
+.show-modal:hover {
+  letter-spacing: 2px;
+  transition: 0.5s ease-in-out;
+  background-color: lightsteelblue;
+}
+
+.close-modal {
+  cursor: pointer;
+  font-size: 2em;
+  border: none;
+  top: 2em;
+  right: 1.5em;
+}

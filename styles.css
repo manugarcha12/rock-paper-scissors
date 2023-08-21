@@ -1,0 +1,144 @@
+body {
+  background-color: #92a8d1;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #034f84;
+  color: goldenrod;
+  font-family: "Victor Mono", monospace;
+  font-size: 1.5em;
+}
+.display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 150px;
+}
+#player {
+  padding: 150px;
+}
+#computer {
+  padding: 150px;
+}
+.rock {
+  background: url("rock.png") no-repeat center center;
+}
+
+.paper {
+  background: url("paper.png") no-repeat center center;
+}
+
+.scissors {
+  background: url("scissors.png") no-repeat center center;
+}
+.player {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 125px;
+}
+
+.computer {
+  border-radius: 10px;
+  padding: 125px;
+}
+
+.scoreboard {
+  display: flex;
+  gap: 200px;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2em;
+  font-family: "Victor Mono", monospace;
+  font-weight: bold;
+  color: black;
+}
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-family: "Victor Mono", monospace;
+}
+
+button {
+  border: 3px;
+  background-color: white;
+  padding: 25px;
+  cursor: pointer;
+  font-size: 1.5em;
+  border-radius: 10px;
+  width: 175px;
+  font-family: "Victor Mono", monospace;
+  font-weight: bolder;
+}
+
+button:hover {
+  color: goldenrod;
+  letter-spacing: 2px;
+  background-color: #034f84;
+  transition: 0.5s;
+}
+
+#message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Victor Mono", monospace;
+  font-size: 1.5em;
+  font-weight: bolder;
+  gap: 50px;
+}
+
+#comp {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Victor Mono", monospace;
+  font-size: 1.5em;
+  gap: 50px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+#modal-content {
+  display: flex;
+  align-items: center;
+  background-color: #034f84;
+  justify-content: center;
+  align-items: center;
+  margin: 15% auto;
+  padding: 20px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  width: 30%;
+  height: 150px;
+  color: goldenrod;
+  font-size: 2em;
+  font-family: "Victor Mono", monospace;
+  font-weight: bolder;
+  text-align: center;
+}
